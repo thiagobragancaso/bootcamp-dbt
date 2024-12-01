@@ -15,7 +15,7 @@ SELECT
     reviewer_name, 
     review_text, 
     review_sentiment,
-    CURRENT_TIMESTAMP() AS dt_processing
+    CURRENT_TIMESTAMP() AS processed_at
 FROM
     src_reviews
 WHERE
