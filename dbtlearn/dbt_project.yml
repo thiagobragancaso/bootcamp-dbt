@@ -33,4 +33,7 @@ models:
   dbtlearn:
     +materialized: view
     dim:
-      +materialized: table
+      +materialized: view
+    src:
+      +materialized: ephemeral
+    
