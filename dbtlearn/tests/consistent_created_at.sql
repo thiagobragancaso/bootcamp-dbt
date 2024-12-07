@@ -15,4 +15,4 @@ LEFT JOIN dim
     ON fct.listing_id = dim.listing_id
 WHERE 1=1
     AND fct.review_date < dim.created_at
-LIMIT
+LIMIT 1
